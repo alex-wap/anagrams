@@ -16,4 +16,4 @@ Sort the letters of each word in the array. If the anagram doesn't exist in the 
 ## Example
 
 
-`['abc','bca','dog','god','cat','act','pop']` returns `{ abc: 2, dgo: 2, act: 2, opp: 1 }`
+`anagrams(['abc','bca','dog','god','cat','act','pop'])` returns `{ abc: 2, dgo: 2, act: 2, opp: 1 }`
