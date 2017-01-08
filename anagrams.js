@@ -23,11 +23,13 @@ function anagrams(arr){
   return anagramCount;
 }
 
+
 var test1 = anagrams(['abc','bca','dog','god','cat','act','pop'])
-console.log(test1);
+console.log(test1); // { abc: 2, dgo: 2, act: 2, opp: 1 }
 
 var test2 = anagrams(['car','rac','awesome','sauce'])
-console.log(test2);
+console.log(test2); // { acr: 2, aeemosw: 1, acesu: 1 }
 
 var test3 = anagrams(['look','kool','book','koob','a'])
-console.log(test3);
+console.log(test3); // { kloo: 2, bkoo: 2, a: 1 }
+
